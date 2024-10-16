@@ -1,0 +1,45 @@
+main {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+h1{
+    text-align: center;
+}
+
+
+nav>ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+nav > li{
+    flex-basis: 20%;
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1vw;
+    flex-basis: 75%;
+    margin:1vh;
+    padding: 1vw;
+}
+
+article>section{
+    flex-basis: 80%;
+}
+
+img{
+    margin-left: 2vh;
+}
+
+aside{
+    padding: 1vw;
+    
+    margin:1vh;
+}
+
+footer{
+    text-align: center;
+}

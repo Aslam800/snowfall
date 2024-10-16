@@ -1,0 +1,38 @@
+
+
+body{
+    background-color: rgb(2, 1, 100) ;
+    color: azure;
+}
+header{
+    background-color: rgb(2, 1, 140);
+    color: whitesmoke;
+    border-radius: 1vh;
+}
+
+article{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+nav li a{
+    color: aliceblue;
+}
+
+nav li{
+    color: aliceblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+    padding: 1vw;
+}
+
+li{
+    list-style-type: none;
+}
+
+aside{
+    border: 2px solid black;
+    border-radius: 10px;
+}
