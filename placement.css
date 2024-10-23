@@ -1,6 +1,13 @@
+
 main {
     display: flex;
     flex-wrap: nowrap;
+    margin: 1rem;
+}
+
+header>img{
+    margin-left: 40%;
+    width: 20%
 }
 
 h1{
@@ -9,6 +16,7 @@ h1{
 
 
 nav>ul{
+    margin-right: 3vw;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -17,11 +25,10 @@ nav>ul{
 nav > li{
     flex-basis: 20%;
 }
+
 article{
     display: flex;
     flex-wrap: wrap;
-    padding: 1vw;
-    flex-basis: 75%;
     margin:1vh;
     padding: 1vw;
 }
@@ -34,12 +41,34 @@ img{
     margin-left: 2vh;
 }
 
-aside{
-    padding: 1vw;
-    
-    margin:1vh;
+
+#image1{
+    margin-right: 5vh;
 }
 
-footer{
+#image2{
+    margin-left: 5vh;
+}
+ 
+
+
+article p{
     text-align: center;
+}
+
+aside{
+    padding: 1vw;
+    flex-basis: 40%;
+   
+    margin-left: 1vw;
+    
+    
+}
+
+
+footer{
+    margin: 1rem;
+    
+    text-align: center;
+    
 }
